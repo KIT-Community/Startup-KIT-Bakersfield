@@ -1,0 +1,59 @@
+// global variables
+    $primaryBlue: #4686a0;
+    $secondaryBlue: #12527d; 
+ 
+// nav bar gradient
+.my-nav-bar {
+    
+    $rotation: 62deg;
+    
+    background-color: $primaryBlue !important;
+    
+    background: linear-gradient($rotation, $secondaryBlue, $primaryBlue) !important;
+    
+    background: -webkit-linear-gradient($rotation, $secondaryBlue, $primaryBlue) !important;
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($rotation, $secondaryBlue, $primaryBlue) !important;
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($rotation, $secondaryBlue, $primaryBlue) !important;
+    /* For Firefox 3.6 to 15 */
+}
+// nav links
+// override bootstrap defaults
+.my-links {
+    a {
+        color: white !important;
+    }
+    a:hover {
+        color: #ea6c23 !important;
+    }
+}
+
+// registration button
+.my-button {
+    background-color: #ea6c23;
+    color: #fff;
+}
+
+.my-button:hover {
+    opacity: .8;
+    color: #fff !important;
+}
+
+// footer
+.my-footer {
+    
+    margin-top: 50px;
+    color: black;
+    
+}
+
+.my-footer-links {
+    a {
+        color: $primaryBlue !important;
+    }
+    a:hover {
+        color: #ea6c23 !important;
+    }            
+}
+

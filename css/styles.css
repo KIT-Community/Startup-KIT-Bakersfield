@@ -1,0 +1,33 @@
+.my-nav-bar {
+  background-color: #4686a0 !important;
+  background: linear-gradient(62deg, #12527d, #4686a0) !important;
+  background: -webkit-linear-gradient(62deg, #12527d, #4686a0) !important;
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(62deg, #12527d, #4686a0) !important;
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(62deg, #12527d, #4686a0) !important;
+  /* For Firefox 3.6 to 15 */ }
+
+.my-links a {
+  color: white !important; }
+.my-links a:hover {
+  color: #ea6c23 !important; }
+
+.my-button {
+  background-color: #ea6c23;
+  color: #fff; }
+
+.my-button:hover {
+  opacity: .8;
+  color: #fff !important; }
+
+.my-footer {
+  margin-top: 50px;
+  color: black; }
+
+.my-footer-links a {
+  color: #4686a0 !important; }
+.my-footer-links a:hover {
+  color: #ea6c23 !important; }
+
+/*# sourceMappingURL=styles.css.map */
