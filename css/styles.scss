@@ -1,6 +1,14 @@
+// google font: Quicksand
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 // global variables
     $primaryBlue: #4686a0;
-    $secondaryBlue: #12527d; 
+    $secondaryBlue: #12527d;
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
  
 // nav bar gradient
 .my-nav-bar {
